@@ -100,6 +100,8 @@
     margin-top: 50px;
     height: 1200px;
     padding: 40px 95px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .development-section h2 {
@@ -171,4 +173,39 @@
     line-height: 20px;
     text-align: center;
     margin-top: 30px;
+}
+
+/* inspiration section */
+.inspiration-section {
+    height: 530px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inspiration-section h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.inspiration-section p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.vedio {
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+    padding: 16px;
+}
+iframe{
+    border-radius: 16px;
 }
