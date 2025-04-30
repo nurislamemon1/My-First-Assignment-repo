@@ -314,24 +314,26 @@ iframe {
     display: flex;
     gap: 20px;
 }
-.right-side-column h4{
+
+.right-side-column h4 {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 800;
     line-height: 24px;
     text-align: left;
 }
-.right-side-column p{
+
+.right-side-column p {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.right-side-column button{
+.right-side-column button {
     text-decoration: underline;
     border: none;
     margin-top: 15px;
@@ -340,4 +342,72 @@ text-align: left;
     font-weight: 700;
     line-height: 19px;
     background-color: white;
+}
+
+/* support section */
+.support-section {
+    height: 300px;
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.support-section h3 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-section p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.input-content{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.input-content input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+width: 500px;
+height: 57px;
+}
+input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.input-content button{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 17px 20px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
 }
